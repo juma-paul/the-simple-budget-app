@@ -19,7 +19,7 @@ Format: `type/username/description-of-task`
 Example: `chore/juma/test-repo-setup`
 
 ### Types
-- `feature` - New features
+- `feat` - New features
 - `fix` - Bug fixes
 - `chore` - Maintenance tasks
 - `docs` - Documentation updates
