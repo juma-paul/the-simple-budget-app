@@ -16,7 +16,7 @@
 ## Branch Naming Convention
 Format: `dev/description-of-task`
 
-Example: `chore/juma/test-repo-setup`
+Example: `dev/test-repo-setup`
 
 ### Types
 - `feat` - New features
