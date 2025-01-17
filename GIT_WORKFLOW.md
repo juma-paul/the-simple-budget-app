@@ -14,7 +14,7 @@
 4. Make test changes to verify setup
 
 ## Branch Naming Convention
-Format: `type/username/description-of-task`
+Format: `dev/description-of-task`
 
 Example: `chore/juma/test-repo-setup`
 
@@ -63,7 +63,7 @@ Fixes: #1
 
 ### Creating a New Branch
 ```bash
-git checkout -b type/username/description
+git checkout -b dev/description-of-task
 ```
 
 ### Making Changes
@@ -88,7 +88,7 @@ git commit
 
 4. Push changes:
 ```bash
-git push -u origin type/username/description
+git push -u origin dev/description-of-task
 ```
 
 ## Pull Request Process
@@ -96,7 +96,7 @@ git push -u origin type/username/description
 2. Create a Pull Request
 3. Verify the correct branch mapping:
 ```
-base: main <- compare: type/username/description
+base: main <- compare: dev/description-of-task
 ```
 4. Ensure PR title and description match commit message
 5. Submit PR for review
@@ -114,7 +114,7 @@ git branch  # Should show *main
 
 3. Delete feature branch:
 ```bash
-git branch -d type/username/description
+git branch -d dev/description-of-task
 ```
 
 4. Verify deletion:
